@@ -15,8 +15,7 @@ h1 {background-color:white;
 h2 {color:skyblue}
 
 
-a:hover {
-  color:red; 
+a:hover {color:red; 
   text-shadow:2px 2px white
 }
 
