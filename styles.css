@@ -1,8 +1,7 @@
 body {font-family: alice, serif; background-color:black; color: white}
 
 a {color:hotpink}
-h1 {
-  background-color:white;
+h1 {background-color:white;
   border:3px solid blue;
   width: 50%;
   color: skyblue;
@@ -18,6 +17,7 @@ h2 {color:skyblue}
 
 a:hover {
   color:red; 
+  text-shadow:2px 2px white
 }
 
 ul li {font-style:italic}
