@@ -3,15 +3,16 @@ body {font-family: alice, serif; background-color:black; color: white}
 a {color:hotpink}
 h1 {
   background-color:white;
+  border:3px solid blue;
   width: 50%;
   color: skyblue;
-  margin: 10px auto;
-  padding: 10px; 
+  margin:10px auto;
+  padding: 10px;
   text-align: center;
-  border-radius: 5px;
-  border: 3px solid blue;
+  border-radius:15px;
   text-shadow: 2px 2px blue;
 }
+
 h2 {color:skyblue}
 
 
