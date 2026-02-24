@@ -15,11 +15,19 @@ h1 {
 h2 {color:skyblue}
 
 
-
-a:hover {color:red}
+a:hover {
+  color:red; 
+}
 
 ul li {font-style:italic}
 
+/*This is a comment*/
+
+.int-link {
+  font-weight:bolder; 
+}
+
+#mail-link {font-size: 1.5em}
 /*This is a comment*/
 
 .int-link {font-weight:bolder}
