@@ -13,10 +13,11 @@ p {color:black}
 div.review-div {
   text-align:center; 
   background-color: #4D8D9E;
-  margin: 10px;
+  margin: 10px 10%;
   border-width:5px;
-  border-color:#000000;
+  border-color:black;
   border-radius:15px;
+  
 }
 hr {border-color:black}
 a{
