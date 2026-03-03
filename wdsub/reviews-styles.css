@@ -27,7 +27,10 @@ a{
 }
 #footer a { 
   color: black;
+  display:inline-block;
+  width:100%;
   text-align: center;
+  font-size:1.5em
 }
 a:hover {color:#4D649E;}
 
