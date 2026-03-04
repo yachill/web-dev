@@ -13,6 +13,7 @@ p {
   color: black;
   text-align: center; 
   padding: 5px 5px;
+  display:block;
 }
 div.review-div {
   text-align:center; 
@@ -21,6 +22,7 @@ div.review-div {
   margin: 10px 10%;
   border:solid black 3px;
   border-radius:15px;
+  display:block;
   
 }
 hr {border-color:black}
