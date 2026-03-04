@@ -10,8 +10,9 @@ h1, h2{
   text-shadow: 2px 2px #ffffff
 }
 p {
-  color:black;
-  text-align:center; 
+  color: black;
+  text-align: center; 
+  padding: 5px 5px;
 }
 div.review-div {
   text-align:center; 
