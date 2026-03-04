@@ -16,6 +16,7 @@ p {
 div.review-div {
   text-align:center; 
   background-color: #4D8D9E;
+  padding: 5px;
   margin: 10px 10%;
   border:solid black 3px;
   border-radius:15px;
