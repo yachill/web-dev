@@ -9,13 +9,15 @@ h1, h2{
   font-weight:100;
   text-shadow: 2px 2px #ffffff
 }
-p {color:black}
+p {
+  color:black;
+  text-align:center; 
+}
 div.review-div {
   text-align:center; 
   background-color: #4D8D9E;
   margin: 10px 10%;
-  border-width:5px;
-  border-color:black;
+  border:solid black 3px;
   border-radius:15px;
   
 }
