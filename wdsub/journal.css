@@ -14,7 +14,9 @@ h1 {
   text-shadow: 2px 2px hsla(130, 50%, 20%, 1);
 }
 
-
+h2 {
+  text-align:center;
+}
 
 body {
   font-family: alice, serif; 
@@ -22,7 +24,7 @@ body {
   color: white;
 }
 
-img {
+#bg-img {
   position:fixed;
   top:0px;
   left:0px;
@@ -106,16 +108,36 @@ ul.nav-list{
 
 #publish-info {
   float:left;
-  margin-left:20%;
-  padding: 7px;
+  margin-left:15%;
+  padding: 7px 3%;
   border-right: 1px solid white;
 }
 
 #address {
   float:right;
-  margin-right:20%
+  margin-right:15%
 }
 #empty {
   width:100%;
   min-height:100px;
+}
+
+
+
+.art-pic #humpback {
+  float:left;
+  margin:8px 3px;
+  padding:5px;
+  width:35%;
+  max-height:300px;
+  border: 1px solid white;
+}
+
+.art-pic img{
+  float:right;
+  margin:8px 3px;
+  padding:5px;
+  width:40%;
+  max-height:300px;
+  border: 1px solid white;
 }
