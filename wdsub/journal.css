@@ -105,14 +105,14 @@ ul.nav-list{
 
 #publish-info {
   float:left;
-  margin-left:15%;
-  padding: 7px 3%;
+  margin-left:25%;
+  padding: 0px 40px;
   border-right: 1px solid white;
 }
 
 #address {
   float:right;
-  margin-right:15%
+  margin-right:25%
 }
 #empty {
   width:100%;
