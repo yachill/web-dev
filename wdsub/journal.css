@@ -103,16 +103,23 @@ ul.nav-list{
   width:100%;
 }
 
+#vertical-bar {
+  border: solid 1px;
+    border-color: white;
+    display: inline-block;
+    height: 5lh;
+}
+
 #publish-info {
-  float:left;
-  margin-left:25%;
-  padding: 0px 40px;
-  border-right: 1px solid white;
+  text-align: right;
+    padding-left: 20%;
+    float: left;;
 }
 
 #address {
-  float:right;
-  margin-right:25%
+text-align: left;
+    padding-right: 20%;
+    float: right;
 }
 #empty {
   width:100%;
