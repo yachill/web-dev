@@ -114,7 +114,8 @@ ul.nav-list{
 #publish-info {
   text-align: right;
   padding-left: 20%;
-  float: left;;
+  float: left;
+  padding-right:5%;
 }
 
 #address {
