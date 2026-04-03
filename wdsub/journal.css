@@ -106,8 +106,8 @@ ul.nav-list{
 #vertical-bar {
   border: solid 1px;
   border-color: white;
-  display:block;
-  height: 90%;
+  display:inline-block;
+  height: 80%;
 }
 
 #publish-info {
