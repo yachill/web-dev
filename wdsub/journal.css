@@ -105,21 +105,22 @@ ul.nav-list{
 
 #vertical-bar {
   border: solid 1px;
-    border-color: white;
-    display: inline-block;
-    height: 5lh;
+  border-color: white;
+  display: inline-block;
+  height: 100%;
+  text-align:center;
 }
 
 #publish-info {
   text-align: right;
-    padding-left: 20%;
-    float: left;;
+  padding-left: 20%;
+  float: left;;
 }
 
 #address {
-text-align: left;
-    padding-right: 20%;
-    float: right;
+  text-align: left;
+  padding-right: 20%;
+  float: right;
 }
 #empty {
   width:100%;
