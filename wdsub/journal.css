@@ -107,8 +107,8 @@ ul.nav-list{
   border: solid 1px;
   border-color: white;
   display: inline-block;
-  height: 100%;
-  text-align:center;
+  height: 6em;
+  
 }
 
 #publish-info {
