@@ -106,16 +106,10 @@ ul.nav-list{
 #vertical-bar {
   border: solid 1px;
   border-color: white;
-  display: flex;
+  display:block;
   height: 90%;
 }
 
-#publish-info, #address {
-    flex: 1; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #publish-info {
   text-align: right;
   padding-left: 20%;
