@@ -104,17 +104,17 @@ ul.nav-list{
 }
 
 #vertical-bar {
-  border: solid 1px;
-  border-color: white;
+  border-right: solid white 2px;
   display:inline-block;
-  height: 80%;
+  height: 6em;
+  padding:0px 3%;
 }
 
 #publish-info {
   text-align: right;
   padding-left: 20%;
   float: left;
-  padding-right: 1%;
+  ;
 }
 
 #address {
