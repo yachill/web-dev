@@ -136,7 +136,7 @@ ul.nav-list{
   margin:8px 3px;
   padding:5px;
   width:35%;
-  max-height:300px;
+  max-height:200px;
   border: 1px solid white;
 }
 
@@ -145,6 +145,6 @@ ul.nav-list{
   margin:8px 3px;
   padding:5px;
   width:40%;
-  max-height:300px;
+  max-height:200px;
   border: 1px solid white;
 }
