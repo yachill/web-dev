@@ -101,6 +101,7 @@ ul.nav-list{
   background-color: hsla(130, 50%, 20%, 1);
   margin:0px;
   width:100%;
+  clear:both;
 }
 
 #vertical-bar {
