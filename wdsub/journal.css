@@ -107,7 +107,8 @@ ul.nav-list{
   border-right: solid white 2px;
   display:inline-block;
   height: 6em;
-  padding:0px 3%;
+  position:absolute;
+  left:50%;
 }
 
 #publish-info {
