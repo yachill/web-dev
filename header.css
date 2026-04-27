@@ -72,4 +72,5 @@ ul.nav-list{
 }
 .nav-div .nav-list a:hover {
   background-color: lightblue;
+  color:black;
 }
