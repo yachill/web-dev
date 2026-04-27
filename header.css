@@ -1,4 +1,4 @@
-h1 {background-color:white;
+#preheader h1 {background-color:white;
   border:3px solid blue;
   width: 50%;
   color: skyblue;
@@ -12,7 +12,7 @@ h1 {background-color:white;
   margin-right: auto;
   text-align: center;
 }
-a {
+#nav-bar a {
   color:hotpink;
   text-decoration:none;
 }
