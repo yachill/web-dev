@@ -13,7 +13,12 @@
   text-align: center;
   font-size: 1.5em;
 }
-#nav-bar a {
+
+a{
+  font-size:1em;
+}
+
+.nav-div a{
   color:hotpink;
   text-decoration:none;
   font-size:1em;
@@ -67,7 +72,7 @@ ul.nav-list{
 #nav-web-dev {
   border-right:none;
 }
-.nav-list a {
+.nav-list a{
   color:black;
   display:inline-block;
   width:100%;
