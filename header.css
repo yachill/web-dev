@@ -27,7 +27,7 @@
   position:sticky;
   top: 0px;
   background-color: rgba(25, 25, 25, 0.7);
-
+  font-size: 1em;
 }
 div.nav-div {
   text-align: center;
