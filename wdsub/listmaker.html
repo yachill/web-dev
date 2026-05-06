@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List Maker</title>
+    <link rel="stylesheet" href="/web-dev/wdsub/listmaker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header-div">
+      <h1 id="header">List Maker</h1>
+    </div>
+    <div id="input-div">
+      <label for="input-item">New Item:</label>
+      <input id="input-item" type="text">
+      <button onclick="addItem(event)">Add Item</button>
+      <button  onclick="clearList(event)">Clear List</button>
+    </div>
+    <div id="list-div">
+      <ul id="item-list"></ul>
+    </div>
+    <script href="/web-dev/wdsub/listmaker.js"></script>
+  </body>
+</html>
