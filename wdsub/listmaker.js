@@ -59,6 +59,7 @@ function uncheckItem(elem) {
 
 function saveList() {
   document.cookie = "list=" + itemList.innerHTML;
+  console.log("cookie is:" +document.cookie);
 }
 
 function loadList() {
