@@ -1,0 +1,28 @@
+#header-div, #input-div {
+  width:80%;
+  margin:auto;
+  text-align:center; 
+}
+
+#header-div {
+  background-color: #59f;
+  font-family: 'Ranchers', serif; 
+}
+
+li {
+  list-style-type:none;
+
+}
+li button{
+  background-color: rgba(0,0,0,0);
+  border:none;
+  cursor:pointer;
+}
+
+.trash-btn {
+  display:none;
+}
+
+li:hover .trash-btn {
+  display:inline;
+}
