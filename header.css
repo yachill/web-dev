@@ -15,13 +15,13 @@
 }
 
 a{
-  font-size:0.5em;
+  font-size:0.75em;
 }
 
 .nav-div a{
   color:hotpink;
   text-decoration:none;
-  font-size:0.5em;
+  font-size:0.75em;
 }
 
 
@@ -32,7 +32,7 @@ a{
   position:sticky;
   top: 0px;
   background-color: rgba(25, 25, 25, 0.7);
-  font-size: 0.5em;
+  font-size: 0.75em;
 }
 div.nav-div {
   text-align: center;
