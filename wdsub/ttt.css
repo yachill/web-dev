@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 100;
+}
+
+#player-turn p {
+  text-align: center;
+  background-color: rgb(55, 140, 190);
+  margin: 10px 25%;
+  border-radius: 10px;
+}
+
+#ttt-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+div.ttt-row {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+  max-width: 500px;
+}
+
+div.ttt-square {
+  flex-grow: 1;
+  border: 3px solid black;
+  border-bottom: 0px;
+  width: 30%;
+  min-height: 100px;
+}
+
+div.ttt-bottom {
+  border-bottom: 3px solid black;
+}
+
+#end-of-game {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  display: none;
+}
+
+#end-of-game div {
+  background-color: white;
+  width: 50%;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+}
