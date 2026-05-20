@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="globalheader.js"></script>
+  <h1 id="ttt-title">Tic-Tac-Toe</h1>
+  <div id="player-turn">
+    <p>X's turn</p>
+  </div>
+  <div class="ttt-row">
+    <div class="ttt-square"></div>
+    <div class="ttt-square"></div>
+    <div class="ttt-square"></div>
+  </div>
+  <div class="ttt-row">
+    <div class="ttt-square"></div>
+    <div class="ttt-square"></div>
+    <div class="ttt-square"></div>
+  </div>
+  <div class="ttt-row">
+    <div class="ttt-square ttt-bottom"></div>
+    <div class="ttt-square ttt-bottom"></div>
+    <div class="ttt-square ttt-bottom"></div>
+  </div>
+
+  <div id="end-of-game">
+    <div>
+      <p>🥳PLAYER X WINS!🥳</p>
+      <button onclick="resetGame()">Play Again</button>
+    </div>
+  </div>
+</body>
+
+</html>
