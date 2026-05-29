@@ -28,7 +28,7 @@ function buildMatrix() {
     }
     else if (j==0) {
       newCell.classList.add("strat-cell");
-      newCell.innerHTML ="s<sub>" + i+ "</sub>";
+      newCell.innerHTML ="s<sub>" + i + "</sub>";
     }
     else {
       newCell.classList.add("payoff-cell");
