@@ -1,5 +1,4 @@
 
-
 let urlParams = new URLSearchParams(window.location.search);
 const P1_STRATS = urlParams.get("p1Strats");
 const P2_STRATS = urlParams.get("p2Strats");
