@@ -1,7 +1,7 @@
 
 let urlParams = new URLSearchParams(window.location.search);
-const P1_STRATS = urlParams.get("p1Strats")/10;
-const P2_STRATS = urlParams.get("p2Strats")/10;
+const P1_STRATS = Number(urlParams.get("p1Strats"));
+const P2_STRATS = Number(urlParams.get("p2Strats"));
 
 const PAYOFF_CELL_CONTENTS = "(<input type='number'>, <input type='number'>)";
 
