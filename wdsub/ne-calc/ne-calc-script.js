@@ -1,11 +1,8 @@
 
-//let urlParams = new URLSearchParams(window.location.search);
-//const P1_STRATS = urlParams.get("p1Strats");
-//const P2_STRATS = urlParams.get("p2Strats");
+let urlParams = new URLSearchParams(window.location.search);
+const P1_STRATS = urlParams.get("p1Strats");
+const P2_STRATS = urlParams.get("p2Strats");
 
-
-const P1_STRATS = 4
-const P2_STRATS = 5
 const PAYOFF_CELL_CONTENTS = "(<input type='number'>, <input type='number'>)";
 
 buildMatrix();
